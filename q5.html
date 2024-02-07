@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- how to do the best thing in the world and what is the best way to do it  -->
+<form>
+    <div class = "container">
+        <div class="row">
+            <div class = "col bg-primary p-5">
+                <h1 class = "text-center form-control bg-primary border border-primary fs-3">
+                    Student Registeration form
+                </h1>
+                <hr style = "border: 1px solid white "/>
+                <div class="form-group m-2">
+                    <label for = "firstname">Enter your first name</label>
+                    <input type = "text" placeholder="Firstname" id = "firstname" class="form-control"/>
+                </div>
+                <div class="form-group m-2">
+                    <label for = "middlename">Enter your middle name</label>
+                    <input type = "text" placeholder="Middlename" id = "middlename" class="form-control"/>
+                </div>
+                <div class="form-group m-2">
+                    <label for = "lastname">Enter your last name</label>
+                    <input type = "text" placeholder="Lastname" id = "lastname" class="form-control"/>
+                </div>
+                <div class = "form-group m-2 my-4">
+                    <label for = "selectCourses">Courses:</label>
+                    <select id = "selectCourses" class = "form-control w-25" style = "display: inline;">
+                        <option selected>CSE</option>
+                        <option>IT</option>
+                        <option>AIML</option>
+                        <option>IOT</option>
+                    </select>
+                </div>
+                <span>Gender:</span>
+                <div class = "form-check form-check-inline">
+                    <input type = "radio" class = "form-check-input bg-secondary" id = "male" name = "gender" value = "option1"/>
+                    <label for="male">Male</label>
+                </div>
+                <div class = "form-check form-check-inline">
+                    <input type = "radio" class = "form-check-input bg-secondary" id = "female" name = "gender" value = "option2"/>
+                    <label for="female">Female</label>
+                </div>
+                <div class = "form-check form-check-inline">
+                    <input type = "radio" class = "form-check-input bg-secondary" id = "other" name = "gender" value = "option3"/>
+                    <label for="other">Other</label>
+                </div>
+                <div class="form-group m-2">
+                    <label for = "phone">Phone:</label>
+                    <input type = "text" value="+91" placeholder="Enter country code" id = "phone" class="form-control"/>
+                </div>
+                <div class="form-group m-2">
+                    <input type = "text" placeholder="Phone Number" class="form-control"/>
+                </div>
+                <div class="form-group m-2">
+                    <label for = "address">Enter your current address</label>
+                    <textarea placeholder="Address" id = "address" rows="5" class="form-control"></textarea>
+                </div>
+                <div class="form-group m-2">
+                    <label for = "email">Enter your email id</label>
+                    <input type = "email" placeholder="email" id = "email" class="form-control"/>
+                </div>
+                <div class="form-group m-2">
+                    <label for = "password">Enter your password</label>
+                    <input type = "password" placeholder="password" id = "password" class="form-control"/>
+                    <i class = "bi bi-eye-slash"></i>
+                </div>
+                <div class="form-group m-2">
+                    <label for = "retype">Enter your re-type the password</label>
+                    <input type = "password" placeholder="password" id = "retype" class="form-control"/>
+                </div>
+                <button type = "submit" class = "btn btn-success m-2">Register</button>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

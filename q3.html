@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Travel resevtion form</h1>
+        <h3>* denote mandotory</h3>
+        <label for="fullname">name*:</label><br/>
+        <input type = "text" id = "fullname" placeholder="Enter your full name"/><br/>
+        <label for="email">Email Address*:</label><br/>
+        <input type = "email" placeholder="enter the email" id = "email"/><br/>
+        <label for="tourpackage">Select Tour Package*:</label><br/>
+        <select id = "tourpackage">
+            <option checked>Goa</option>
+            <option>HP</option>
+            <option>Assam</option>
+            <option>MP</option>
+        </select><br/>
+        <label for = "date">Arrival date*:</label><br/>
+        <input type = "text" placeholder="m/d/y" id = "date"/><br/>
+        <label for = "numberofperson">Number of Person*:</label><br/>
+        <input type = "text" placeholder= "UNKNOWN_TYPE" id = "numberofperson"/><br/>
+        <label for = "avail">What would you want to avail?</label>
+        <div id = "avail">
+            <span>Boarding</span><input type = "checkbox"/><br/>
+            <span>fooding</span><input type = "checkbox"/><br/>
+            <span>sigth seeing</span><input type = "checkbox"/>
+        </div>
+        <label for = "discoutcouponcode">Discout Coupan code:</label><br/>
+        <input type = "text" id = "discoutcouponcode" placeholder="UNKNOWN_TYPE"/><br/>
+        <label for="termsandconditions">Terms and conditions</label>
+        <div id = "termsandconditions">
+            <input type = "radio"/> <span>I agree</span>
+            <input type = "radio" checked/> <span>I disagree</span>
+        </div>
+        <button type = "button">Complete reservation</button>
+    </form>
+</body>
+</html>
